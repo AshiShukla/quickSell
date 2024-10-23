@@ -85,6 +85,8 @@ function Group({ data, title, groupBy, users }) {
         return <HighPriority />;
       case "4":
         return <UrgentPriority />;
+      case "5":
+        return <UrgentPriorityGrey />;
       default:
         return getUser(type);
     }
