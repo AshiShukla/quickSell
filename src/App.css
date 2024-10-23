@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --light-grey: #f4f6fa;
+  --llight-grey: #f8f8fa;
+  --light-grey-text: #9b9898;
+  --white: #ffffff;
+  --grey: #dbdbdb;
+  --dark-grey: #3b3636;
+  --limegreen: #37e337;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+li,
+a {
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background: var(--light-grey);
+  display: grid;
+  grid-template-rows: 5rem auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header"
+    "board";
+}
+.main_header {
+  grid-area: header;
+  background: var(--white);
+  box-shadow: 0px 3px 2px 3px var(--light-grey);
+}
+.main_board {
+  grid-area: board;
+  background: var(--light-grey);
+  overflow: hidden;
+  overflow-y: scroll
+}
