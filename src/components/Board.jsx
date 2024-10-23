@@ -4,7 +4,7 @@ import { useEffect, useState, React } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 const API = "https://api.quicksell.co/v1/internal/frontend-assignment";
 const groupingOptions = ["status", "userId", "priority"];
-const orderingOptions = ["userId", "priority"];
+const orderingOptions = ["title", "priority"];
 function Board() {
   const [tickets, setTickets] = useState([]);
   const [loading, setLoading] = useState(true);
