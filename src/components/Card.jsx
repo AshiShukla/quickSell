@@ -20,8 +20,8 @@ function Card({ card, groupBy, getIcon, getUser }) {
         </div>
         <div className={style.tags}>
           {groupBy !== "priority" ? (
-            <div>
-              <HighPriority className={style.svg} />
+            <div className={style.icon}>
+              {getIcon(card.priority === 4 ? "5" : card.priority + "")}
             </div>
           ) : null}
           {card.tag.map((tag, idx) => {
