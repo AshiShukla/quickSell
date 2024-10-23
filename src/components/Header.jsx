@@ -10,7 +10,7 @@ const groupingOptions = [
   { label: "Priority", value: "priority" },
 ];
 const orderingOptions = [
-  { label: "User", value: "userId" },
+  { label: "Title", value: "title" },
   { label: "Priority", value: "priority" },
 ];
 function Header() {
