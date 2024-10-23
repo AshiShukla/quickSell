@@ -40,7 +40,7 @@ function CustomSelect({
             </div>
           ) : null}
           <div>
-            <span>{type === "text" ? options[current]["value"] : label}</span>
+            <span>{type === "text" ? options[current]["label"] : label}</span>
           </div>
         </div>
         <div>
