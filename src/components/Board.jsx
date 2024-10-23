@@ -13,6 +13,8 @@ function Board() {
   let groupBy = params.group;
   let sortBy = searchParams.get("sort");
   useEffect(() => {
+    groupBy = params.group;
+  sortBy = searchParams.get("sort");
     const fetchTickets = async () => {
       try {
         if (
