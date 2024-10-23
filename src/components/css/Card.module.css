@@ -73,9 +73,10 @@
   border: 1px solid var(--grey);
   border-radius: 5px;
   display: flex;
+  gap:0.3rem;
   justify-content: center;
   align-items: center;
-  padding: 0.3rem;
+  padding: 0.4rem;
 }
 .fearure::before {
   content: "";
@@ -83,7 +84,6 @@
   height: .8rem;
   border-radius: 50%;
   background: var(--light-grey-text);
-  margin: 0.4rem;
 }
 .fearure span {
   color: var(--light-grey-text);
