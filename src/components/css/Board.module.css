@@ -1,9 +1,6 @@
 .board {
   padding: 0 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  overflow: hidden;
-  gap: 1.5rem;
+  columns: 5;
 }
 .loading {
   width: 100vw;
@@ -46,22 +43,22 @@
 }
 @media screen and (max-width: 1900px) {
   .board {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    columns: 4;
   }
 }
 @media screen and (max-width: 1500px) {
   .board {
-    grid-template-columns: 1fr 1fr 1fr;
+    columns: 3;
   }
 }
 @media screen and (max-width: 1200px) {
   .board {
-    grid-template-columns: 1fr 1fr;
+    columns: 2;
   }
 }
 @media screen and (max-width: 800px) {
   .board {
-    grid-template-columns: 1fr;
+    columns: 1;
   }
 }
 @media screen and (max-width: 500px) {
