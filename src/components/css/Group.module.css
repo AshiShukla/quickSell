@@ -25,7 +25,7 @@
 }
 .title {
   color: var(--dark-grey);
-  font-weight: 500;
+  font-weight: 600;
 }
 .count {
   color: var(--light-grey-text);
