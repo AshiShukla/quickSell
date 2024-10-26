@@ -1,7 +1,7 @@
 .group {
   width: 100%;
   height: auto;
-  avoid-break:avoid;
+  break-inside: avoid;
   padding:1px;
 }
 .header {
