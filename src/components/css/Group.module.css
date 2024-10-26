@@ -1,7 +1,6 @@
 .group {
   width: 100%;
   height: auto;
-  grid-auto-flow: dense;
   avoid-break:avoid;
   padding:1px;
 }
