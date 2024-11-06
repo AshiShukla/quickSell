@@ -48,5 +48,5 @@ body {
   grid-area: board;
   background: var(--light-grey);
   overflow: hidden;
-  overflow-y: scroll
+  overflow-y: auto;
 }
